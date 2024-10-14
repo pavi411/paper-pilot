@@ -23,7 +23,7 @@ struct AuthorViewModel: Hashable, Decodable {
     
     init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.authorId = try container.decode(String.self, forKey: .authorId)
+        self.authorId = try container.decodeIfPresent(String.self, forKey: .authorId) ?? ""
         self.name = try container.decode(String.self, forKey: .name)
     }
 }

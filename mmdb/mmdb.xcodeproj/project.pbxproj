@@ -11,15 +11,27 @@
 		24F7B61B2BFFF1EE00043BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B61A2BFFF1EE00043BDB /* ContentView.swift */; };
 		24F7B61D2BFFF1EF00043BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F7B61C2BFFF1EF00043BDB /* Assets.xcassets */; };
 		24F7B6202BFFF1EF00043BDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F7B61F2BFFF1EF00043BDB /* Preview Assets.xcassets */; };
-		24F7B62E2C01005F00043BDB /* PaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B62D2C01005F00043BDB /* PaperView.swift */; };
-		24F7B6302C01006800043BDB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B62F2C01006800043BDB /* DashboardView.swift */; };
-		24F7B6322C010AFF00043BDB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B6312C010AFF00043BDB /* CategoryView.swift */; };
 		24F7B6352C01109700043BDB /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B6342C01109700043BDB /* CategoryViewModel.swift */; };
-		24F7B6372C012B9D00043BDB /* RecentPapersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B6362C012B9D00043BDB /* RecentPapersView.swift */; };
-		24F7B6392C0130DC00043BDB /* PaperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B6382C0130DC00043BDB /* PaperDetailView.swift */; };
 		24F7B63B2C0132AF00043BDB /* PaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B63A2C0132AF00043BDB /* PaperViewModel.swift */; };
 		24F7B63D2C0133A500043BDB /* AuthorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B63C2C0133A500043BDB /* AuthorViewModel.swift */; };
 		24F7B6402C013BA400043BDB /* PaperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7B63F2C013BA400043BDB /* PaperService.swift */; };
+		815670562C23F41700BF938C /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815670552C23F41700BF938C /* BrowseView.swift */; };
+		81709B1A2C23D46A0073620A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B192C23D46A0073620A /* CategoryView.swift */; };
+		81709B1D2C23D47E0073620A /* PaperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B1B2C23D47E0073620A /* PaperDetailView.swift */; };
+		81709B1E2C23D47E0073620A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B1C2C23D47E0073620A /* DashboardView.swift */; };
+		81709B222C23D48C0073620A /* PaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B1F2C23D48C0073620A /* PaperView.swift */; };
+		81709B232C23D48C0073620A /* RecentPapersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B202C23D48C0073620A /* RecentPapersView.swift */; };
+		81709B242C23D48C0073620A /* PaperListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81709B212C23D48C0073620A /* PaperListView.swift */; };
+		818C96712C23D1FB0038B1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C96702C23D1FB0038B1A8 /* AppDelegate.swift */; };
+		818C96922C23D2B10038B1A8 /* AuthorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C968E2C23D2B10038B1A8 /* AuthorViewModel.swift */; };
+		818C96932C23D2B10038B1A8 /* PaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C968F2C23D2B10038B1A8 /* PaperViewModel.swift */; };
+		818C96942C23D2B10038B1A8 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C96902C23D2B10038B1A8 /* CategoryViewModel.swift */; };
+		818C96952C23D2B10038B1A8 /* PaperListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C96912C23D2B10038B1A8 /* PaperListViewModel.swift */; };
+		818C96972C23D2C20038B1A8 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C96962C23D2C20038B1A8 /* ARViewRepresentable.swift */; };
+		818C96992C23D2D00038B1A8 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C96982C23D2D00038B1A8 /* DataManger.swift */; };
+		818C969B2C23D2D80038B1A8 /* FavouritePaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C969A2C23D2D80038B1A8 /* FavouritePaper.swift */; };
+		818C969E2C23D2E10038B1A8 /* Paperdb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818C969C2C23D2E10038B1A8 /* Paperdb.xcdatamodeld */; };
+		818C96A02C23D2EF0038B1A8 /* PaperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C969F2C23D2EF0038B1A8 /* PaperService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,15 +40,27 @@
 		24F7B61A2BFFF1EE00043BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24F7B61C2BFFF1EF00043BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F7B61F2BFFF1EF00043BDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		24F7B62D2C01005F00043BDB /* PaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperView.swift; sourceTree = "<group>"; };
-		24F7B62F2C01006800043BDB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		24F7B6312C010AFF00043BDB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		24F7B6342C01109700043BDB /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
-		24F7B6362C012B9D00043BDB /* RecentPapersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPapersView.swift; sourceTree = "<group>"; };
-		24F7B6382C0130DC00043BDB /* PaperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperDetailView.swift; sourceTree = "<group>"; };
 		24F7B63A2C0132AF00043BDB /* PaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperViewModel.swift; sourceTree = "<group>"; };
 		24F7B63C2C0133A500043BDB /* AuthorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewModel.swift; sourceTree = "<group>"; };
 		24F7B63F2C013BA400043BDB /* PaperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperService.swift; sourceTree = "<group>"; };
+		815670552C23F41700BF938C /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		81709B192C23D46A0073620A /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		81709B1B2C23D47E0073620A /* PaperDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperDetailView.swift; sourceTree = "<group>"; };
+		81709B1C2C23D47E0073620A /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		81709B1F2C23D48C0073620A /* PaperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperView.swift; sourceTree = "<group>"; };
+		81709B202C23D48C0073620A /* RecentPapersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentPapersView.swift; sourceTree = "<group>"; };
+		81709B212C23D48C0073620A /* PaperListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperListView.swift; sourceTree = "<group>"; };
+		818C96702C23D1FB0038B1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		818C968E2C23D2B10038B1A8 /* AuthorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorViewModel.swift; sourceTree = "<group>"; };
+		818C968F2C23D2B10038B1A8 /* PaperViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperViewModel.swift; sourceTree = "<group>"; };
+		818C96902C23D2B10038B1A8 /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		818C96912C23D2B10038B1A8 /* PaperListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperListViewModel.swift; sourceTree = "<group>"; };
+		818C96962C23D2C20038B1A8 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		818C96982C23D2D00038B1A8 /* DataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		818C969A2C23D2D80038B1A8 /* FavouritePaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritePaper.swift; sourceTree = "<group>"; };
+		818C969D2C23D2E10038B1A8 /* Paperdb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paperdb.xcdatamodel; sourceTree = "<group>"; };
+		818C969F2C23D2EF0038B1A8 /* PaperService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +93,16 @@
 		24F7B6172BFFF1EE00043BDB /* mmdb */ = {
 			isa = PBXGroup;
 			children = (
+				818C969C2C23D2E10038B1A8 /* Paperdb.xcdatamodeld */,
+				818C969A2C23D2D80038B1A8 /* FavouritePaper.swift */,
+				818C96982C23D2D00038B1A8 /* DataManger.swift */,
+				818C96962C23D2C20038B1A8 /* ARViewRepresentable.swift */,
+				818C968D2C23D2B10038B1A8 /* Models */,
+				818C96802C23D27F0038B1A8 /* Views */,
+				818C96702C23D1FB0038B1A8 /* AppDelegate.swift */,
+				813132EC2C1BFB5E0012C4F0 /* Preview Content */,
 				24F7B63E2C013B9700043BDB /* Services */,
 				24F7B6332C01108000043BDB /* Models */,
-				24F7B62C2C01003800043BDB /* Views */,
 				24F7B6182BFFF1EE00043BDB /* mmdbApp.swift */,
 				24F7B61A2BFFF1EE00043BDB /* ContentView.swift */,
 				24F7B61C2BFFF1EF00043BDB /* Assets.xcassets */,
@@ -88,18 +119,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		24F7B62C2C01003800043BDB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				24F7B62D2C01005F00043BDB /* PaperView.swift */,
-				24F7B62F2C01006800043BDB /* DashboardView.swift */,
-				24F7B6312C010AFF00043BDB /* CategoryView.swift */,
-				24F7B6362C012B9D00043BDB /* RecentPapersView.swift */,
-				24F7B6382C0130DC00043BDB /* PaperDetailView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		24F7B6332C01108000043BDB /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +132,42 @@
 		24F7B63E2C013B9700043BDB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				818C969F2C23D2EF0038B1A8 /* PaperService.swift */,
 				24F7B63F2C013BA400043BDB /* PaperService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		813132EC2C1BFB5E0012C4F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		818C96802C23D27F0038B1A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81709B212C23D48C0073620A /* PaperListView.swift */,
+				81709B1F2C23D48C0073620A /* PaperView.swift */,
+				81709B202C23D48C0073620A /* RecentPapersView.swift */,
+				81709B1C2C23D47E0073620A /* DashboardView.swift */,
+				81709B1B2C23D47E0073620A /* PaperDetailView.swift */,
+				81709B192C23D46A0073620A /* CategoryView.swift */,
+				815670552C23F41700BF938C /* BrowseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		818C968D2C23D2B10038B1A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				818C968E2C23D2B10038B1A8 /* AuthorViewModel.swift */,
+				818C968F2C23D2B10038B1A8 /* PaperViewModel.swift */,
+				818C96902C23D2B10038B1A8 /* CategoryViewModel.swift */,
+				818C96912C23D2B10038B1A8 /* PaperListViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,17 +240,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F7B6372C012B9D00043BDB /* RecentPapersView.swift in Sources */,
+				818C96712C23D1FB0038B1A8 /* AppDelegate.swift in Sources */,
+				818C96972C23D2C20038B1A8 /* ARViewRepresentable.swift in Sources */,
+				81709B232C23D48C0073620A /* RecentPapersView.swift in Sources */,
 				24F7B63D2C0133A500043BDB /* AuthorViewModel.swift in Sources */,
 				24F7B6402C013BA400043BDB /* PaperService.swift in Sources */,
+				81709B1E2C23D47E0073620A /* DashboardView.swift in Sources */,
+				818C96952C23D2B10038B1A8 /* PaperListViewModel.swift in Sources */,
+				81709B222C23D48C0073620A /* PaperView.swift in Sources */,
+				818C96942C23D2B10038B1A8 /* CategoryViewModel.swift in Sources */,
+				818C96932C23D2B10038B1A8 /* PaperViewModel.swift in Sources */,
+				818C96A02C23D2EF0038B1A8 /* PaperService.swift in Sources */,
+				815670562C23F41700BF938C /* BrowseView.swift in Sources */,
 				24F7B6352C01109700043BDB /* CategoryViewModel.swift in Sources */,
-				24F7B6392C0130DC00043BDB /* PaperDetailView.swift in Sources */,
+				81709B242C23D48C0073620A /* PaperListView.swift in Sources */,
+				81709B1D2C23D47E0073620A /* PaperDetailView.swift in Sources */,
+				818C969B2C23D2D80038B1A8 /* FavouritePaper.swift in Sources */,
+				818C969E2C23D2E10038B1A8 /* Paperdb.xcdatamodeld in Sources */,
 				24F7B61B2BFFF1EE00043BDB /* ContentView.swift in Sources */,
-				24F7B62E2C01005F00043BDB /* PaperView.swift in Sources */,
-				24F7B6322C010AFF00043BDB /* CategoryView.swift in Sources */,
-				24F7B6302C01006800043BDB /* DashboardView.swift in Sources */,
+				81709B1A2C23D46A0073620A /* CategoryView.swift in Sources */,
 				24F7B63B2C0132AF00043BDB /* PaperViewModel.swift in Sources */,
+				818C96922C23D2B10038B1A8 /* AuthorViewModel.swift in Sources */,
 				24F7B6192BFFF1EE00043BDB /* mmdbApp.swift in Sources */,
+				818C96992C23D2D00038B1A8 /* DataManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +395,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mmdb/Preview Content\"";
-				DEVELOPMENT_TEAM = CLM9DATQG6;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = FAB7JZGN26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -340,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,8 +425,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mmdb/Preview Content\"";
-				DEVELOPMENT_TEAM = CLM9DATQG6;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = FAB7JZGN26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -369,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		818C969C2C23D2E10038B1A8 /* Paperdb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				818C969D2C23D2E10038B1A8 /* Paperdb.xcdatamodel */,
+			);
+			currentVersion = 818C969D2C23D2E10038B1A8 /* Paperdb.xcdatamodel */;
+			path = Paperdb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 24F7B60D2BFFF1EE00043BDB /* Project object */;
 }

@@ -18,6 +18,10 @@ struct DashboardView: View {
                 CategoryView().tabItem {
                     Label("Categories", systemImage: "rectangle.3.group.fill")
                 }
+                
+                BrowseView().tabItem {
+                    Label("Browse", systemImage: "rectangle.3.group.fill")
+                }
             }.toolbarBackground(.gray, for: .tabBar)
                 .toolbarBackground(.visible, for: .tabBar)
                 .toolbarColorScheme(.dark, for: .tabBar)
@@ -25,6 +29,6 @@ struct DashboardView: View {
     }
 }
 
-#Preview {
-    DashboardView()
-}
+//#Preview {
+//    DashboardView()
+//}
